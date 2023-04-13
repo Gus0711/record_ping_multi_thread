@@ -1,0 +1,24 @@
+********************      FR      ********************
+Ce code permet d'enregistrer les logs de ping et d'essayer d'établir une connexion TCP avec l'adresse IP et le port spécifiés.
+Il prend en compte plusieurs paramétrages possibles.
+L'utilisateur peut sélectionner un fichier CSV avec comme structure : nom_adresse_ip;adresse_ip.
+Ensuite, un fichier CSV est automatiquement généré au même emplacement que le fichier source, contenant les logs
+
+************ Amélioration a faire ************
+    - Gestion de la non tentative de connexion TCP (si aucun port spécifié alors ne pas faire)
+    - Gestion de l'arrêt en cours de fonctionnement
+    - Générer un fichier de stats sur les non joignable
+
+
+
+
+********************      EN      ********************
+This code allows to log ping results and attempt to establish a TCP connection with the specified IP address and port.
+It takes into account multiple possible configurations.
+The user can select a CSV file with the following structure: nom_adresse_ip;adresse_ip.
+Afterwards, a CSV file is automatically generated at the same location as the source file, containing the logs.
+
+************ Improvements to be made ************
+    - Handle cases where no TCP connection attempt is needed (if no port is specified)
+    - Handle graceful termination during runtime
+    - Generate a stats file for unreachable hosts
