@@ -120,9 +120,6 @@ def ping_host(ip, retries, port, nom):
         writer.writerow([date_heure, ip, nom, result_ping, tcp_success])
 
 
-#ne sert a rien
-
-
 
 # Création de la fenêtre tkinter
 root = tk.Tk()
