@@ -8,6 +8,7 @@ Ensuite, un fichier CSV est automatiquement généré au même emplacement que l
     - Gestion de la non tentative de connexion TCP (si aucun port spécifié alors ne pas faire)
     - Gestion de l'arrêt en cours de fonctionnement
     - Générer un fichier de stats sur les non joignable
+    - Gestion de nombre de thread utilisés
 
 
 
@@ -22,3 +23,4 @@ Afterwards, a CSV file is automatically generated at the same location as the so
     - Handle cases where no TCP connection attempt is needed (if no port is specified)
     - Handle graceful termination during runtime
     - Generate a stats file for unreachable hosts
+    - Management of number of threads used
